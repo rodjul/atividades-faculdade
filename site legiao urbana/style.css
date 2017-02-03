@@ -1,0 +1,540 @@
+﻿/** NAV MENU **/
+#fixmenu{ /* a posicao do menu fica no mesmo lugar */ 
+    position: relative;
+    top:-235px;
+    left:-180px;
+}
+nav { 
+    position: absolute;
+    left:150px;
+    top: 155px;
+    width:800px;
+	padding:20px 10px 10px 0px;
+	margin:0px auto;
+    z-index: 99;
+}
+.navbar {
+    width:980px;
+    height:50px;
+    top:-136px;
+    right:-175px;
+    z-index: 99; /* deixar a camada acima */
+}
+
+.navbar li {
+	font-size: 18px;
+	padding: 20px 0px 10px 0px;
+	float:left;
+	list-style: none;
+    background-color:#494747;    
+    margin:0;
+    height:auto;
+    text-align: center;
+    width:135px;
+}
+.navbar li.aqui { /* pagina atual */
+	background-color: orange;
+}
+.navbar a.aqui{
+    color:red;  
+}
+.navbar li a {
+	padding: 20px 0px 10px 0px;
+	color: #ededed;
+	text-decoration: none;
+}
+.navbar li a:hover {
+	padding: 20px 0px 10px 0px;
+	/*background-color: #c13b3b; */
+    color: #c13b3b;
+}
+.navbar li ul{
+	display: none;  /* Hides the drop-down menu */
+	height: auto;									
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */	
+    width:150px;
+
+}				
+.navbar li:hover ul {
+    display: block ; /* Displays the drop-down box when the menu item is hovered over */
+	margin-top:10px;
+    width:150px;
+    height:1px;
+}
+.navbar li ul li {
+	float:none;
+	padding: 10px 0px;
+  	width:150px;
+    height:auto;
+	background-color: #494747;
+    text-align:center;
+    font-size:17px;
+    display: block;
+} 				
+.navbar li ul li a:hover{
+	padding: 10px 0px;
+    color: #c13b3b;
+}
+/** PESQUISA MENU **/
+#pesquisa form{
+    /*height: 20px; /* tamanho */
+    /*width: 260px; /* tamanho */
+    float:right;
+    background-color: none;
+    padding-bottom:10px;
+    padding-top:20px;
+    padding-right:5px;
+}
+
+#pesquisa{
+    position:relative;
+    top: -55px;
+    right:15px;
+    font-size: 17px;
+    color:#ededed;
+    z-index: 99;
+}
+#pesquisa input[type="search"]{
+    border:none;
+    left:0px;
+    outline:0;
+    width:185px;
+    height:25px;
+}
+#pesquisa input.icon{
+    background-image: url("img/search.png");
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:20px;
+    right:6px;
+    width:25px;
+    height:25px;
+    opacity: 0.75;
+    cursor:pointer;
+}
+/** LOGO MENU **/
+#logomenu img{
+    width: 999px;
+    height: 300px;
+    background-color:white;
+    position:relative;
+    left:-39px;
+}
+
+/* FORMATO PADRÃO*/
+body{
+    font-family: arial;
+    margin:0px auto;
+    padding:0px;
+    border:0px;
+    width:1000px;
+    max-width:1200px;
+}
+section.fundo{ /** fundo do body **/
+ background-color:white;   
+}
+h2{
+font-size:30px;
+color:red;
+font-weight:600;
+}
+
+/** BACKGROUND HTML **/
+html{
+   background-image: url("img/texture1.1.png");
+}
+
+/* HEADER TOPO DO SITE  */
+header{
+    background: #494747;
+    padding: 50px 1px 10px 0px;
+    z-index: 36;   
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+/* LAYOUT DO SITE */
+#meio{
+    background:white;
+    width: 800px;
+    padding: 10px 10px;
+    margin-left:90px;
+    z-index:35;
+}
+
+/** INDEX   **/
+#meio span#LU{ /* home */
+    color:#c13b3b;
+    font-weight: 800;
+}
+#meio #colunaIn{ /*coluna bem vindo */
+    width:430px;
+    height:auto;
+    position: relative;
+    top:62px;
+}
+#meio #colunaIn p.bemvindo{
+    font-size:20px;
+    text-align:justify;
+}
+#meio #linksgaleria{ /* home link galeria */ 
+    width:400px;
+    position: relative;
+    right:-455px;
+    top:-80px;
+    z-index: 35;
+    border-style:solid;
+    border-width: 1px;
+    padding-left:10px;
+}
+#fotoLUindex{
+    position: relative;
+    top:-860px;
+    left:-660px;
+    z-index: 99;
+}
+img.logoLUind{
+    width:350px; 
+    float:left;
+    position: absolute;
+    top:490px;
+    right:1px;
+    left:660px;
+    z-index: 99;
+}
+/*slideshow*/
+/* transicao ao clicar nas setas */
+.trs {-webkit-transition:all ease-out 0.5s;
+-moz-transition:all ease-out 0.5s;
+-o-transition:all ease-out 0.5s;
+-ms-transition:all ease-out 0.5s;
+transition:all ease-out 0.5s;}
+
+#slider {position: relative; z-index: 1;}
+#slider a { position: absolute; top: 0; left:-40px; 
+    opacity: 0;filter:alpha(opacity=0);}
+.ativo {opacity: 1!important; filter:alpha(opacity=100)!important;}
+
+/*controladores*/
+#linksgaleria span {background: #0190EE; cursor: pointer; opacity: 0;filter:alpha(opacity=0); position: absolute; bottom: 40%; width: 43px; height: 43px; z-index: 5;}
+.next {right: 7px; top:120px;}
+.next:before,.next:after {left: 21px;}
+.next:before {
+-webkit-transform: rotate(-42deg);
+top: 5px;
+}
+.next:after {
+-webkit-transform: rotate(-132deg);
+top: 19px;
+}
+.next:before,.next:after,.prev:before,.prev:after {content: "";
+height: 20px;
+background: #fff;
+width: 1px;
+position: absolute;
+}
+
+.prev {left: 0px;top:120px;}
+.prev:before,.prev:after {left: 18px;}
+.prev:before {
+-webkit-transform: rotate(42deg);
+top: 5px;
+}
+.prev:after {
+-webkit-transform: rotate(132deg);
+top: 19px;
+}
+
+#linksgaleria figure:hover span {opacity: 0.76;filter:alpha(opacity=76);}
+
+#linksgaleria figure {
+max-width: 330px;
+height: 354px;
+position: relative;
+overflow: hidden;
+margin: 0px auto;
+}
+/* legenda do slideshow */
+#linksgaleria figcaption {padding-left: 10px;color: #fff; font-family: "Kaushan Script","Lato","arial"; font-size: 20px; background: rgba(1, 144, 238, 0.76); width: 100%; position: absolute; bottom: 40px; left: 0; line-height: 55px; height: 55px; z-index: 5}
+/*fim slideshow*/
+
+/** 10maismusicas  **/
+h2.a10mais{
+ position:relative;
+ top:35px;
+ 
+}
+p.b10mais{
+    position: relative;
+    top:50px;
+}
+#colunatop1{
+    width:300px;
+    position: relative;
+    top:100px;
+}
+#colunatop2 {
+    width:300px;
+    position: relative;
+    right: -460px;
+    top:-163px;
+}
+#colunatop1 li {
+    list-style: none;
+    padding:10px 10px;
+    text-align:center;
+    margin:10px 10px;
+    color:black;
+}
+#colunatop1, #colunatop2 a {
+    text-decoration:none;
+    font-size:18px;
+    font-weight: 600;
+}
+
+#colunatop2 li{
+    list-style: none;
+    padding:10px 10px;
+    text-align:center;
+    margin:10px 10px;
+}
+#colunatop1 li.laranja{
+    background-color:#f49c16;
+}
+#colunatop1 li.verde{
+    background-color:#8AB1BA; 
+}
+#colunatop2 li.laranja{
+    background-color:#f49c16;
+}
+#colunatop2 li.verde{
+    background-color:#8AB1BA; 
+}
+#imgMusica{
+    position: absolute;
+    top:650px;
+    right:300px;
+    left:600px;
+    width:150px;
+}
+#fixImgMusica{
+    position: relative;
+    top:-1050px;
+    right:310px;
+}
+
+/** MUSICA **/
+#colunaMusica1{
+    width:300px;
+}
+#colunaMusica2{
+    width:300px; 
+    position: absolute;
+    right:300px;
+    left:1050px;
+    top:515px;
+}
+#fixcolunaMusica2{
+    position:relative;
+    top:-2845px;   
+    right:640px;
+}
+#colunaMusica1, #colunaMusica2, a, li{
+    list-style: none;
+    text-decoration: none;
+    padding:10px 10px;
+    margin:10px 10px;
+    text-align:center;
+    font-weight: 600;
+}
+li.cor1{
+    background-color:#8AB1BA;
+}
+li.cor2{
+    background-color:#f49c16;
+}
+
+/** DISCOGRAFIA **/
+#imgDiscografia{
+    position: relative;
+    left:130px;
+}
+#formatacaoDiscog li.album1{
+    list-style:none;
+    font-style:italic;
+}
+#formatacaoDiscog li.album{
+    list-style:none;
+    font-style:italic;
+}
+#formatacaoDiscog li{
+    list-style:decimal;
+    text-align:left;
+}
+
+#album1 h3.al1{ /** album 1 **/
+    position: relative;
+    top:-200px;
+    right:-300px
+}
+
+#album2 h3.al2{ /** album 2 **/
+    position: relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album3 h3.al3{ /* album 3 */
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album4 h3.al4{ /* album 4 */
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album5 h3.al5{ /*album 5*/
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album6 h3.al6{ /*album 6*/
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album7 h3.al7{ /* album 7 */
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album8 h3.al8{ /*album 8*/
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album9 h3.al9{ /*album 9*/
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+
+#album10 h3.al10{ /*album 10*/
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+
+#album11 h3.al11{ /* album 11 */
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album12 h3.al12{ /*album12 */
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+#album13 h3.al13{ /*album13*/
+    position:relative;
+    top:-200px;
+    right:-300px;
+}
+
+
+/* CURIOSIDADES */
+#justifyCuriosidade li{
+    list-style:decimal;
+    padding:10px 0px 10px 0px;
+    margin:0;
+    text-align:justify;
+}
+   
+/* BIBLIOGRAFIA INTEGRANTES */
+#renatoRusso, #marceloBonfa, #dadoVilla, #renatoRocha, #outrosIntegrantes, p{
+    text-align:justify;
+}
+#renatoRusso img{
+    float:left;
+    padding: 0px 20px 20px 0px;
+}
+#marceloBonfa img{
+    float:left;
+    padding: 0px 20px 20px 0px;
+}
+#dadoVilla img{
+    float:left;
+    padding:0px 20px 20px 0px;
+}
+#renatoRocha img{
+    float:left;
+    padding:0px 20px 20px 0px;
+}
+
+/*BIBLIOGRAFIA BANDA */
+#biBanda img{
+    float:left;
+    padding:0px 20px 20px 0px;
+}
+
+/* MUSICA */
+#musica{
+width:500px;
+position:relative;
+right:-160px;
+}
+
+/* PAGINA IMAGENS */
+p.aviso{
+    font-size: 12px;
+    font-weight: 700;
+}
+#imgCentro{
+    text-align:center;   
+}
+
+/* PAGINA SHOWS */
+#esquerda{
+    width:355px;
+}
+#direita{
+    width:358px;
+    position: absolute;
+    top:470px;  
+    right:0px;
+    left:1100px;
+}
+#fixarDireito{
+    position: relative;
+    top:-3746px;
+    right:640px;
+}
+
+/** FOOTER DO SITE **/
+footer{
+    position: relative; 
+    background: #8AB1BA;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: 600; 
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+p.footer{
+    text-align:center;
+    font-weight:600;
+}
