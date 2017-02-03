@@ -1,2 +1,2 @@
 # atividades-faculdade-mack
-Exercícios de programação, programas feitos
+Arquivos de trabalhos feitos
