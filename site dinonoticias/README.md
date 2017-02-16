@@ -1,0 +1,1 @@
+Site voltado a notícias.
