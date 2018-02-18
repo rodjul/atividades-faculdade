@@ -1,0 +1,8 @@
+3
+Seleção_de_madeira
+Entalhamento_dos_arcos
+Entalhamento_do_acento
+5
+0 2
+4 0
+2 4

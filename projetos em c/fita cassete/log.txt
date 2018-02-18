@@ -1,0 +1,494 @@
+Caso 1 
+1) 
+Lado A: 
+3m 11s
+4m 45s
+13m 45s
+6m 8s
+
+Lado B: 
+
+2) 
+Lado A: 
+3m 11s
+4m 45s
+6m 8s
+13m 45s
+
+Lado B: 
+
+3) 
+Lado A: 
+3m 11s
+13m 45s
+4m 45s
+6m 8s
+
+Lado B: 
+
+4) 
+Lado A: 
+3m 11s
+13m 45s
+6m 8s
+4m 45s
+
+Lado B: 
+
+5) 
+Lado A: 
+3m 11s
+6m 8s
+4m 45s
+13m 45s
+
+Lado B: 
+
+6) 
+Lado A: 
+3m 11s
+6m 8s
+13m 45s
+4m 45s
+
+Lado B: 
+
+7) 
+Lado A: 
+4m 45s
+3m 11s
+13m 45s
+6m 8s
+
+Lado B: 
+
+8) 
+Lado A: 
+4m 45s
+3m 11s
+6m 8s
+13m 45s
+
+Lado B: 
+
+9) 
+Lado A: 
+4m 45s
+13m 45s
+3m 11s
+6m 8s
+
+Lado B: 
+
+10) 
+Lado A: 
+4m 45s
+13m 45s
+6m 8s
+3m 11s
+
+Lado B: 
+
+11) 
+Lado A: 
+4m 45s
+6m 8s
+3m 11s
+13m 45s
+
+Lado B: 
+
+12) 
+Lado A: 
+4m 45s
+6m 8s
+13m 45s
+3m 11s
+
+Lado B: 
+
+13) 
+Lado A: 
+13m 45s
+3m 11s
+4m 45s
+6m 8s
+
+Lado B: 
+
+14) 
+Lado A: 
+13m 45s
+3m 11s
+6m 8s
+4m 45s
+
+Lado B: 
+
+15) 
+Lado A: 
+13m 45s
+4m 45s
+3m 11s
+6m 8s
+
+Lado B: 
+
+16) 
+Lado A: 
+13m 45s
+4m 45s
+6m 8s
+3m 11s
+
+Lado B: 
+
+17) 
+Lado A: 
+13m 45s
+6m 8s
+3m 11s
+4m 45s
+
+Lado B: 
+
+18) 
+Lado A: 
+13m 45s
+6m 8s
+4m 45s
+3m 11s
+
+Lado B: 
+
+19) 
+Lado A: 
+6m 8s
+3m 11s
+4m 45s
+13m 45s
+
+Lado B: 
+
+20) 
+Lado A: 
+6m 8s
+3m 11s
+13m 45s
+4m 45s
+
+Lado B: 
+
+21) 
+Lado A: 
+6m 8s
+4m 45s
+3m 11s
+13m 45s
+
+Lado B: 
+
+22) 
+Lado A: 
+6m 8s
+4m 45s
+13m 45s
+3m 11s
+
+Lado B: 
+
+23) 
+Lado A: 
+6m 8s
+13m 45s
+3m 11s
+4m 45s
+
+Lado B: 
+
+24) 
+Lado A: 
+6m 8s
+13m 45s
+4m 45s
+3m 11s
+
+Lado B: 
+
+
+Caso 2 
+1) 
+Lado A: 
+20m 44s
+4m 36s
+7m 18s
+13m 8s
+9m 6s
+
+Lado B: 
+8m 12s
+
+2) 
+Lado A: 
+20m 44s
+4m 36s
+7m 18s
+13m 8s
+8m 12s
+
+Lado B: 
+9m 6s
+
+3) 
+Lado A: 
+20m 44s
+4m 36s
+7m 18s
+9m 6s
+13m 8s
+
+Lado B: 
+8m 12s
+
+4) 
+Lado A: 
+20m 44s
+4m 36s
+7m 18s
+9m 6s
+8m 12s
+
+Lado B: 
+13m 8s
+
+5) 
+Lado A: 
+20m 44s
+4m 36s
+7m 18s
+8m 12s
+13m 8s
+
+Lado B: 
+9m 6s
+
+6) 
+Lado A: 
+20m 44s
+4m 36s
+7m 18s
+8m 12s
+9m 6s
+
+Lado B: 
+13m 8s
+
+7) 
+Lado A: 
+20m 44s
+4m 36s
+13m 8s
+7m 18s
+9m 6s
+
+Lado B: 
+8m 12s
+
+8) 
+Lado A: 
+20m 44s
+4m 36s
+13m 8s
+7m 18s
+8m 12s
+
+Lado B: 
+9m 6s
+
+9) 
+Lado A: 
+20m 44s
+4m 36s
+13m 8s
+9m 6s
+7m 18s
+
+Lado B: 
+8m 12s
+
+10) 
+Lado A: 
+20m 44s
+4m 36s
+13m 8s
+9m 6s
+8m 12s
+
+Lado B: 
+7m 18s
+
+11) 
+Lado A: 
+20m 44s
+4m 36s
+13m 8s
+8m 12s
+7m 18s
+
+Lado B: 
+9m 6s
+
+12) 
+Lado A: 
+20m 44s
+4m 36s
+13m 8s
+8m 12s
+9m 6s
+
+Lado B: 
+7m 18s
+
+13) 
+Lado A: 
+20m 44s
+4m 36s
+9m 6s
+7m 18s
+13m 8s
+
+Lado B: 
+8m 12s
+
+14) 
+Lado A: 
+20m 44s
+4m 36s
+9m 6s
+7m 18s
+8m 12s
+
+Lado B: 
+13m 8s
+
+15) 
+Lado A: 
+20m 44s
+4m 36s
+9m 6s
+13m 8s
+7m 18s
+
+Lado B: 
+8m 12s
+
+16) 
+Lado A: 
+20m 44s
+4m 36s
+9m 6s
+13m 8s
+8m 12s
+
+Lado B: 
+7m 18s
+
+17) 
+Lado A: 
+20m 44s
+4m 36s
+9m 6s
+8m 12s
+7m 18s
+
+Lado B: 
+13m 8s
+
+18) 
+Lado A: 
+20m 44s
+4m 36s
+9m 6s
+8m 12s
+13m 8s
+
+Lado B: 
+7m 18s
+
+19) 
+Lado A: 
+20m 44s
+4m 36s
+8m 12s
+7m 18s
+13m 8s
+
+Lado B: 
+9m 6s
+
+20) 
+Lado A: 
+20m 44s
+4m 36s
+8m 12s
+7m 18s
+9m 6s
+
+Lado B: 
+13m 8s
+
+21) 
+Lado A: 
+20m 44s
+4m 36s
+8m 12s
+13m 8s
+7m 18s
+
+Lado B: 
+9m 6s
+
+22) 
+Lado A: 
+20m 44s
+4m 36s
+8m 12s
+13m 8s
+9m 6s
+
+Lado B: 
+7m 18s
+
+23) 
+Lado A: 
+20m 44s
+4m 36s
+8m 12s
+9m 6s
+7m 18s
+
+Lado B: 
+13m 8s
+
+24) 
+Lado A: 
+20m 44s
+4m 36s
+8m 12s
+9m 6s
+13m 8s
+
+Lado B: 
+7m 18s
+
+25) 
+Lado A: 
+20m 44s
+7m 18s
+4m 36s
+13m 8s
+9m 6s
+
+Lado B: 
+8m 12s
+

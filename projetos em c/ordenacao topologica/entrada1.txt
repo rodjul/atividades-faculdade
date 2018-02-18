@@ -1,0 +1,14 @@
+6
+Seleção_de_madeira
+Entalhamento_dos_arcos
+Entalhamento_do_acento
+Entalhamento_do_encosto
+Entalhamento_dos_braços
+Seleção_do_tecido
+7
+1 2
+1 3
+1 5
+5 1
+2 6
+6 1
